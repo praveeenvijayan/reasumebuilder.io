@@ -8,3 +8,4 @@ services:
       - ./src:/app/src:ro
     env_file:
       - ./.env
+    command: npm run start
